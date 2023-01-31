@@ -1,0 +1,110 @@
+@keyframes opacity {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+/*--importing typography--*/
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+/*--General adjustments--*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'SF Pro Display', sans-serif ;
+}
+
+/*---Header Details---*/
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content:center
+}
+.column {
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#logo{
+    width: 40px;
+}
+
+/*---Banner data details---*/
+.banner{
+    background-color: black;
+    background-image: url('../img/74c9c16421a85883143bd5b87e7137ea.jpg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.banner-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.banner-text h1{
+    color:#FFFFFF;
+    font-size: 70px;
+    animation: opacity 5s;
+
+}
+.banner-text h3{
+    color:#999999;
+    font-size: 30px;
+    text-align: center;
+    animation: opacity 7s;
+}
+.banner-space{
+    height: 1000px;
+}
+
+/*---Biohgraphy data details---*/
+.biography{
+    display: flex;
+    justify-content: center;
+    width: 990px;
+    padding: 20px;
+
+}
+.title-biography{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*--CSS Attributes of the citation--*/
+.citation{
+    display: flex;
+    align-items: center;
+}
+.citation blockquote{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.citation blockquote p{
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    animation: opacity 3s;
+}
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.signature-steve-jobs{
+    display: flex;
+    width: 120px;
+}
